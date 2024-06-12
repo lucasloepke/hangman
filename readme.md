@@ -1,3 +1,1 @@
-hello world
-
-please download me
+hello, this is a terminal version of the classic hangman game.
