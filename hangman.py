@@ -18,6 +18,7 @@ def getchar():
     if len(attempt) != 1:
         getchar()
 
+# game logic
 def game():
     print("Welcome to Hangman. Please start guessing")
 
@@ -62,6 +63,8 @@ df = pd.read_csv(r'hmwords.csv')
 random_row = df.sample()
 word = random_row.iloc[0,0]
 #---------------------------------------------------------------------------
+
+# game looper
 play = True
 while play is True:
     game()
